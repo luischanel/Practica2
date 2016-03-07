@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppTwoNum</string>
+
+    <string name="calc">Calcular</string>
+    <string name="num1">Numero1</string>
+    <string name="num2">Numero2</string>
+    <string name="sum">Suma</string>
+    <string name="rest">Resta</string>
+    <string name="mul">Multiplicación</string>
+    <string name="div">División</string>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.luisdavila.areas.MainActivity">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cua"
+            android:textSize="20dp"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/radio_cua"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tri"
+            android:onClick="onRadioButtonClicked"
+            android:id="@+id/radio_tri"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rec"
+            android:textSize="20dp"
+            android:id="@+id/radio_rec"
+            android:onClick="onRadioButtonClicked"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cir"
+            android:id="@+id/radio_cir"
+            android:textSize="20dp"
+            android:onClick="onRadioButtonClicked"
+            />
+
+
+
+    </RadioGroup>
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+         android:id="@+id/eDato1"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:id="@+id/eDato2"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/eResultado"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/cal"
+        android:id="@+id/eCalcular"/>
+
+
+
+
+</LinearLayout>

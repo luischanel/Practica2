@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Areas</string>
+
+    <string name="cua">Cuadrado</string>
+    <string name="tri">Triangulo</string>
+    <string name="rec">Rectangulo</string>
+    <string name="cir">Circulo</string>
+
+    <string name="bas">Base</string>
+    <string name="alt">Altura</string>
+    <string name="rad">Radio</string>
+    <string name="lad">Lado</string>
+
+    <string name="cal">Calcular</string>
+</resources>
